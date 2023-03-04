@@ -30,5 +30,8 @@ png = []
 [[example]]
 name = "qrcode"
 
+[[example]]
+name = "qrcode_raw"
+
 [[bin]]
 name = "qr"
