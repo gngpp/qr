@@ -1,5 +1,5 @@
 use image::Luma;
-use qr_gen::{
+use qrcode_gen::{
     render::{svg, unicode},
     EcLevel, QrCode, Version,
 };
