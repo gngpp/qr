@@ -1,0 +1,34 @@
+[package]
+name = "qr"
+description = "Rust QR Code Generic Generator"
+license = "MIT"
+authors = ["gngpp <gngppz@gmail.com>"]
+keywords = ["qr"]
+repository = "https://github.com/gngpp/qr"
+documentation = "http://docs.rs/qr"
+readme = "README.md"
+version = "0.1.0"
+edition = "2021"
+exclude = [
+    ".travis.yml", ".gitignore", "test-data/**"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# image future versions are not supported
+[dependencies]
+crossterm = { version = "0.23", default-features = false }
+image = { version = "0.23", optional = true }
+checked_int_cast = "1"
+regex = "1.5.5"
+
+[features]
+default = ["image", "svg", "png"]
+bench = []
+svg = []
+png = []
+
+[[example]]
+name = "qrcode"
+
+[[bin]]
+name = "qr"
