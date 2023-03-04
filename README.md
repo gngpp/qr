@@ -1,7 +1,9 @@
 # qrcode_gen
 Rust QR Code Generic Generator
 
-### Example 1
+### Example
+
+- example 1
 ```rust
 use image::Luma;
 use qrcode_gen::{
@@ -59,6 +61,7 @@ fn main() {
 }
 ```
 
+- example 2
 ```rust
 fn main() {
     // print qrcode
