@@ -1,11 +1,11 @@
 [package]
-name = "qrcoce_gen"
+name = "qr_gen"
 description = "Rust QR Code Generic Generator"
 license = "MIT"
 authors = ["gngpp <gngppz@gmail.com>"]
 keywords = ["qr", "qrcode", "rust"]
-repository = "https://github.com/gngpp/qr"
-documentation = "http://docs.rs/qrcode-gen"
+repository = "https://github.com/gngpp/qr_gen"
+documentation = "http://docs.rs/qr_gen"
 readme = "README.md"
 version = "0.1.0"
 edition = "2021"
